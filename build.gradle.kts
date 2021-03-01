@@ -1,9 +1,12 @@
+@file:Suppress("SpellCheckingInspection")
 
 plugins {
   id("com.diffplug.spotless") version "5.7.0"
 }
 
 subprojects {
+  repositories { maven("https://dl.bintray.com/oh-rin/meowbase") }
+
   apply(plugin = "com.diffplug.spotless")
   spotless {
     kotlin {
