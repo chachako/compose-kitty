@@ -1,4 +1,4 @@
-# This is the Compose world that belongs to the kitties
+# [ 🚧 Work in progress ⛏👷🔧️ 🚧 ] This is the Compose world that belongs to the kitties
 
 ## 🙌 Description
 A Compose Kitty App sample with exquisite ui and animation effects.

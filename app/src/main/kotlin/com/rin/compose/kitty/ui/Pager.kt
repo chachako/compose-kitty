@@ -1,5 +1,6 @@
 /*
  * Copyright 2020 The Android Open Source Project
+ * Copyright 2021 RinOrz (凛)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,8 +13,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ * Github home page: https://github.com/RinOrz
  */
-
 @file:Suppress("unused")
 
 package com.rin.compose.kitty.ui
@@ -204,7 +205,6 @@ private data class PageData(val page: Int) : ParentDataModifier {
 
 private val Measurable.page: Int
   get() = (parentData as? PageData)?.page ?: error("no PageData for measurable $this")
-
 
 /**
  * Scope for [Pager] content.

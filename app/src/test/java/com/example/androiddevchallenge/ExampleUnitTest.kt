@@ -1,5 +1,6 @@
 /*
  * Copyright 2021 The Android Open Source Project
+ * Copyright 2021 RinOrz (凛)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,6 +13,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ * Github home page: https://github.com/RinOrz
  */
 package com.example.androiddevchallenge
 
@@ -21,5 +23,5 @@ package com.example.androiddevchallenge
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
-    // Add unit tests here
+  // Add unit tests here
 }
