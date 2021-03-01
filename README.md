@@ -1,11 +1,12 @@
-# [ 🚧 Work in progress ⛏👷🔧️ 🚧 ] This is the Compose world that belongs to the kitties
+# This is the Compose world that belongs to the kitties
+[ 🚧 Work in progress ⛏👷🔧️ 🚧 ]
 
 ## 🙌 Description
-A Compose Kitty App sample with exquisite ui and animation effects.
+A Compose Kitty App sample with exquisite UI and animation effects.
 
 
 ## 🌟 Motivation and Context
-Although many people use material design to complete their works very well, I prefer to try other different styles!
+Although many people use Material Design to complete their works very well, I prefer to try other different styles!
 And I am very interested in exploring various APIs of Jetpack Compose, so it was created.
 
 
