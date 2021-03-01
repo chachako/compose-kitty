@@ -1,5 +1,4 @@
 @file:Suppress("SpellCheckingInspection")
-@file:OptIn(InternalMeowbaseApi::class)
 
 buildscript {
   // parse versions.properties file and collect to Map<String, String>
@@ -28,14 +27,15 @@ buildscript {
   ).forEach { dependencies.classpath(it) }
 }
 
-setupMeowbaseToolkit {
+setupToolkit {
+  enableBestKotlinVersion()
   kotlinOptions {
     freeCompilerArgs = freeCompilerArgs + arrayOf(
       "-Xopt-in=androidx.compose.animation.ExperimentalAnimationApi",
       "-Xopt-in=androidx.compose.foundation.ExperimentalFoundationApi"
     )
   }
-  shareMeowbaseAndroidConfig {
+  shareAndroidConfig {
     enableCompose = true
     appFullOptions {
       buildFeatures.apply {
@@ -52,6 +52,10 @@ setupMeowbaseToolkit {
         excludes += "/META-INF/AL2.0"
         excludes += "/META-INF/LGPL2.1"
       }
+    }
+    compileOptions {
+      sourceCompatibility = JavaVersion.VERSION_1_8
+      targetCompatibility = JavaVersion.VERSION_1_8
     }
   }
   shareDependencies {
